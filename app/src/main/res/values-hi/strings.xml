@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">Fuelin</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_logout">Logout</string>
+    <string name="about_app">This App is for Petrol Pump Manager and Attendants.
+                            Start and End Shift
+                            Record credit transactions
+                            Record digital transactions</string>
+    <string name="powered_by">Powered By VeelsPlus Touchtech Pvt. Ltd</string>
+
+
+    <!--Login Activity-->
+    <string name="sign_in">साइन इन करें</string>
+    <string name="phone">मोबाइल नंबर</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="forgot_pass">पासवर्ड भूल गए ?</string>
+    <string name="sorry">माफ़ करना! कार्यक्षमता अभी तक लागू नहीं है!</string>
+    <string name="enter_phone_number">कृपया फ़ोन नंबर दर्ज करें</string>
+    <string name="enter_password">कृप्या पासवर्ड भरो</string>
+
+
+    <!--Home Screen -->
+    <string name="company_name">Company Name</string>
+    <string name="oil_brand">Oil Brand</string>
+    <string name="manager">Manager</string>
+    <string name="operator">Operator</string>
+    <string name="refuel_list">Re-Fuel List</string>
+    <string name="operator_list">Operator List</string>
+    <string name="product_receipt">Product Receipt</string>
+    <string name="daily_stock_reading">Daily Stock Reading</string>
+    <string name="daily_activity">Daily Activity</string>
+    <string name="sales">Sales</string>
+    <string name="reports">Reports</string>
+
+    <!--Re-Fuel List -->
+    <string name="credit_req">Credit Request</string>
+    <string name="cust_name">Customer Name</string>
+    <string name="vehicle_no">Vehicle_number</string>
+    <string name="date">Date : </string>
+    <string name="driver_name">Driver Name</string>
+    <string name="driver_number">Driver Number</string>
+
+    <!--Credit Request -->
+    <string name="person">Person</string>
+    <string name="corporate">Corporate</string>
+
+    <string name="person_number">Person Number</string>
+    <string name="vehicle_number">Vehicle Number</string>
+    <string name="corp_name">Corporate Name</string>
+    <string name="corp_location">Corporate Location</string>
+    <string name="person_name">Person Name</string>
+    <string name="select_fuel_type">Select Fuel Type</string>
+    <string name="amount">Amount</string>
+    <string name="tentative_date">Tentavive Date</string>
+    <string name="create_req">Create Fuel Credit Request</string>
+
+    <!--Manual Entry Form -->
+    <string name="req_details">Fuel Credit Request Details</string>
+    <string name="driver_no">Driver Number</string>
+    <string name="fuel_type">ईंधन प्रकार</string>
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="req_quantity">Requested Quantity</string>
+    <string name="req_qmount">Requested Amount</string>
+    <string name="actual_qauntity">Actual_Quantity</string>
+    <string name="actual_amount">Actual Amount</string>
+    <string name="button_submit">Submit</string>
+    <string name="enter_amount">Enter Amount</string>
+
+    <!--Operators List -->
+    <string name="start_time">Start Time</string>
+    <string name="pump_nozzle">Pump/Nozzle</string>
+    <string name="activity_status">Activity Status</string>
+    <string name="collection_status">Collection Status</string>
+
+    <!--Product Receipt Activity-->
+    <string name="add_prod_receipt">Add Product Receipt</string>
+    <string name="tanker_no">Tanker Number</string>
+    <string name="select_tank">Select Tank</string>
+    <string name="product">Product</string>
+    <string name="pre_stock_decant">Pre Stock Decantation</string>
+    <string name="pre_dip_read">Pre Dip Reading</string>
+
+    <string name="quantity_decant">Quantity Decantation</string>
+    <string name="pre_water_dip_stock">Pre Water Dip Stock</string>
+    <string name="pre_water_dip_scale">Pre Water Dip Scale</string>
+    <string name="rec_quantity">Received Quantity</string>
+    <string name="density_inv">Density On Invoice</string>
+    <string name="density_rec">Density Recorded</string>
+    <string name="product_cost">Product Cost</string>
+
+    <string name="quantity">Quantity(Litres)</string>
+    <string name="tank_no">Tank Number</string>
+    <string name="time">Time</string>
+
+    <string name="post_stock_decant">Post Stock Decantation</string>
+    <string name="post_dip_read">Post Dip Reading</string>
+    <string name="post_water_dip_scale">Post Water Dip Scale</string>
+    <string name="post_water_dip_stock">Post Water Dip Stock</string>
+    <string name="open_dip_read">Open Dip Reading</string>
+    <string name="open_dip_stock">Open Dip stock</string>
+
+    <string name="close_dip_read">Close Dip Read</string>
+    <string name="close_dip_stock">Close Dip Stock</string>
+    <string name="open_density">Open Density</string>
+    <string name="close_density">Close Density</string>
+    <string name="select_product">Select Product</string>
+
+    <string name="enter_pre_stock">Enter Pre Stock Decant</string>
+    <string name="enter_pre_read">Enter Pre Dip Reading</string>
+    <string name="enter_quantity">Enter Quantity</string>
+    <string name="enter_pre_water_scale">Enter Pre Water Scale</string>
+    <string name="enter_pre_water_stock">Enter Pre Water Stock</string>
+    <string name="enter_received_quan">Enter Received Quantity</string>
+    <string name="enter_density">Enter Density</string>
+    <string name="enter_density_recorded">Enter Density Recorded</string>
+    <string name="enter_prod_cost">Enter Product Cost</string>
+    <string name="enter_post_stock">Enter Post Stock</string>
+    <string name="enter_post_dip">Enter Post Dip Reading</string>
+    <string name="enter_post_water_scale">Enter Post Water Scale</string>
+    <string name="enter_post_water_stock">Enter Post Water Stock</string>
+
+
+    <!--Op Shift -->
+    <string name="shift_start_end">शिफ्ट स्टार्ट-एंड</string>
+    <string name="select_pump">पंप चुने</string>
+    <string name="select_nozzle">नोक चुने</string>
+    <string name="rate">दर</string>
+    <string name="start_meter_read">शुरू का मीटर रीडिंग</string>
+    <string name="end_meter_read">अंत का मीटर रीडिंग</string>
+    <string name="test_stock">मीटर द्वारा टेस्ट स्टॉक</string>
+    <string name="unit_sale">इकाई बिक्री</string>
+    <string name="start_shift">शिफ्ट शुरू करो</string>
+    <string name="end_shift">शिफ्ट समाप्त करें</string>
+    <string name="enter_start_meter_readop">शुरू का मीटर रीडिंग दर्ज करें</string>
+    <string name="enter_end_meter_readop">अंत का मीटर रीडिंग दर्ज करें</string>
+
+    <string name="daily_work_list">Daily Work List</string>
+
+    <!--Daily Sales -->
+    <string name="todays_sales">आज का सेल्स रिपोर्ट</string>
+    <string name="info">Info</string>
+    <string name="cash">Cash</string>
+    <string name="digital">Digital</string>
+    <string name="credit">Credit</string>
+    <string name="collection_tally">Collection Tally</string>
+    <string name="meter_sale">Meter Sale</string>
+    <string name="total_amount">कुल रकम</string>
+    <string name="amount_tally">राशि टैली</string>
+    <string name="difference">अंतर</string>
+    <string name="calculate">हिसाब</string>
+    <string name="trans_count">Transaction Count</string>
+    <string name="trans_amount">Transaction Amount</string>
+    <string name="add_details">Add Details</string>
+    <string name="sr_no">Sr.No.</string>
+    <string name="pay_type">Pay Type</string>
+    <string name="trans_id">Transaction Id</string>
+    <string name="enter_trans_count">Enter Trans Count</string>
+    <string name="enter_total_amt">Enter Total Amount</string>
+    <string name="dashboard">Dashboard</string>
+
+    <string name="total_tally_amount">Total Tally Amount</string>
+    <string name="cash_total">Cash Total</string>
+    <string name="digital_total">Digital Total</string>
+    <string name="total_credit_amount">Total Credit Amount</string>
+    <string name="enter_cash_details">कैश विवरण दर्ज करें</string>
+
+
+    <!--Daily Stock Readings -->
+    <string name="daily_stock_readings">Daily Stock Readings</string>
+    <string name="enter_open_dip_read">Enter Open Dip Reading</string>
+    <string name="enter_open_dip_stock">Enter Open Dip Stock</string>
+    <string name="enter_open_density">Enter Open Density</string>
+    <string name="enter_close_dip_read">Enter Close Dip Reading</string>
+    <string name="enter_close_dip_stock">Enter Close Dip Stock</string>
+    <string name="enter_close_density">Enter Close Density</string>
+
+
+    <string name="add_daily_stock">Add Daily Stock</string>
+    <string name="click_here_to_start_shift">Click Here To Start Shift</string>
+    <string name="add_daily_sales">Add Daily Sales </string>
+
+    <!--Messages-->
+
+    <string name="loading">Loading, Please Wait!</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="completed">Completed</string>
+    <string name="started">Started</string>
+
+    <!--Common Strings-->
+    <string name="loading_please_wait">Loading Please Wait!</string>
+    <string name="loading_data">Loading data, Please wait!</string>
+    <string name="sending_request">Sending request, Please wait!</string>
+    <string name="no_data_found">No Data Found!</string>
+    <string name="download_in_progress">Please wait,Download in progress</string>
+    <string name="unable_to_connect">Unable to connect the server,Please try later</string>
+    <string name="unable_to_upload">Unable to upload image, Please try later</string>
+    <string name="upload_in_progress">Please wait,Upload in progress</string>
+    <string name="yes">Yes</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="want_To_logout">Do you want to logout?</string>
+    <string name="permission">This app needs permission to use this feature. You can grant them in app settings</string>
+    <string name="need_permission">Need Permissions</string>
+    <string name="goto_settings">GOTO SETTINGS</string>
+
+    <string name="select_language">Select Language</string>
+
+
+    <!--Newly added-->
+
+    <string name="meter_sale_rs">मीटर बिक्री (रु।)</string>
+    <string name="amount_tally_rs">टैली राशि (रु।)</string>
+
+
+    <string name="enter_new_pass">Enter New Password</string>
+    <string name="reenter_new_pass">Re-Enter Password</string>
+    <string name="not_matching">Password and Confirm Password not matching</string>
+    <string name="pass_change_done">Password changed successfully</string>
+    <string name="please_reenter_pass">Please Re-Enter Password</string>
+    <string name="please_enter_otp">Please Enter OTP</string>
+    <string name="please_enter_phone_number">Please Enter Mobile Number</string>
+    <string name="phone_length">Mobile number must be 10 digit</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="password_changed_done">Password Changed Successfully</string>
+    <string name="otp_incorrect">Entered OTP is not correct</string>
+    <string name="password_length">Password Length must be 6</string>
+
+
+    <string-array name="select_language">
+        <item>Select Language</item>
+        <item>English</item>
+        <item>हिन्दी</item>
+    </string-array>
+
+</resources>

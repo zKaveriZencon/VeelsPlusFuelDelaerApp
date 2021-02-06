@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".activities.DailyStockReadingActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_parent_dsr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/layout_toolbar_dim"
+            layout="@layout/layout_custom_toolbar" />
+
+        <LinearLayout
+            android:id="@+id/layout_child_dsr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_toolbar_dim"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textview_date_label_dsr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Date : "
+                    android:textColor="@color/colorHint"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textview_time_label_dsr"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Time - "
+                    android:textColor="@color/colorHint"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_relative"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_edittext_bg">
+
+                <Spinner
+                    android:id="@+id/spinner_select_tank_aim"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textview_selected_tank"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Selected Tank :  "
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_all_readings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/label_product_aim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Product"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/label_before_dip_read"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="Open Dip Reading"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/label_before_dip_stock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="Open Dip Stock"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/label_open_density_aim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="Open Density  "
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/label_after_dip_read"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/label_before_dip_read"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="Close Dip Reading"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/label_after_dip_stock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/label_before_dip_read"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="Close Dip Stock"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/label_close_density_aim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="Close Density  "
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textview_product_dim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:hint="Product Name"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edittext_before_dip_reading_dim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:hint="Enter Open Dip Reading"
+                        android:inputType="numberDecimal"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edittext_before_dip_stock_dim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Open Dip Stock"
+                        android:inputType="numberDecimal"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edittext_open_density_dim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Open Density"
+                        android:inputType="numberDecimal"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edittext_end_dip_reading_dim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Close Dip Reading"
+                        android:inputType="numberDecimal"
+                        android:textSize="13sp" />
+
+                    <EditText
+                        android:id="@+id/edittext_after_dip_stock_dim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Close Dip Stock"
+                        android:inputType="numberDecimal"
+                        android:textSize="13sp" />
+
+
+                    <EditText
+                        android:id="@+id/edittext_close_density_dim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter Close Density"
+                        android:inputType="numberDecimal"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_submit_dim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:elevation="100dp"
+                android:ellipsize="middle"
+                android:gravity="center"
+                android:padding="15dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="8dp"
+                android:text="Submit"
+                android:textColor="@color/colorPlainWhite"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:rippleColor="@color/colorBlack"
+                app:strokeColor="@color/colorZencon" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_update_dsu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:elevation="100dp"
+                android:ellipsize="middle"
+                android:gravity="center"
+                android:padding="15dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="8dp"
+                android:text="Submit"
+                android:textColor="@color/colorPlainWhite"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:rippleColor="@color/colorBlack"
+                app:strokeColor="@color/colorZencon" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textview_note_dsr"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_below="@+id/layout_child_dsr"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="16dp"
+            android:text="Note : You can't edit any values after activity completion. "
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+</ScrollView>

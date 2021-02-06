@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog_border">
+
+    <LinearLayout
+        android:id="@+id/layout_update_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorCommonGreen"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview_title_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorStatusBar"
+                android:gravity="center"
+                android:text="Notification"
+                android:textColor="@color/colorPlainWhite"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview_message_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@color/colorPlainWhite"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="New update is now available !"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_message_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPlainWhite"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="New version of Fuelin is available. Please update to continue using this APP"
+            android:textColor="@color/colorHeading"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_update_app"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_cancel_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:elevation="100dp"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Cancel"
+            android:textColor="@color/colorPlainWhite"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:rippleColor="@color/colorBlack"
+            app:strokeColor="@color/colorZencon" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_update_app"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="45dp"
+            android:layout_weight="2"
+            android:elevation="100dp"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Update Now"
+            android:textColor="@color/colorPlainWhite"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:rippleColor="@color/colorBlack"
+            app:strokeColor="@color/colorZencon" />
+    </LinearLayout>
+</RelativeLayout>

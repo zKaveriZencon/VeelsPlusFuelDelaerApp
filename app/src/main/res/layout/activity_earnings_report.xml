@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_earning_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_cust_toolbar_er"
+        layout="@layout/layout_custom_toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_cust_toolbar_er"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textview_sales_in_liters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/meter_sale_rs"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_meter_sale_rs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:padding="5dp"
+            android:text="0"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textview_sales_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_sales_in_liters"
+            android:padding="5dp"
+            android:text="@string/amount_tally_rs"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_total_credit_amt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_sales_amount"
+            android:padding="5dp"
+            android:text="Total Credit Amount"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_amount_tally"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_meter_sale_rs"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:padding="5dp"
+            android:text="0"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textview_credit_amt_final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_amount_tally"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:padding="5dp"
+            android:text="0"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_amt_tally_info"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textview_meter_sale_rs"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:src="@drawable/info" />
+
+        <TextView
+            android:id="@+id/textview_actual_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_total_credit_amt"
+            android:padding="5dp"
+            android:text="@string/difference"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textview_difference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_credit_amt_final"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:padding="5dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/iv_difference_info"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textview_credit_amt_final"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:src="@drawable/info"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_header"
+        android:background="@color/colorPlainWhite"
+        app:tabBackground="@drawable/tab_selector_custom"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPlainWhite"
+        app:tabIndicatorHeight="6dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/colorPlainWhite"
+        app:tabTextAppearance="@style/CustomTabTextForLR">
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/update_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorZencon"
+        android:padding="5dp"
+        android:text="Confirm Transaction"
+        android:textColor="@color/colorPlainWhite"
+        android:visibility="gone" />
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager_earn_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_layout"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPlainWhite" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_confirm_trans"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:padding="30dp"
+        android:src="@drawable/correct"
+        android:tint="@color/colorPlainWhite"
+        android:visibility="gone"
+        app:rippleColor="@color/colorPlainWhite"
+        app:tint="@color/colorPlainWhite" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".activities.FuelPriceListActivity">
+
+    <include
+        android:id="@+id/layout_toolbar_fuelprice"
+        layout="@layout/layout_custom_toolbar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_price_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_toolbar_fuelprice"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-1dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_set_fuel_price"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:padding="30dp"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/colorPlainWhite"
+        app:rippleColor="@color/colorPlainWhite"
+        app:tint="@color/colorPlainWhite" />
+    <ImageView
+        android:id="@+id/imageview_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/layout_toolbar_fuelprice"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/nodata"
+        android:visibility="gone" />
+</RelativeLayout>

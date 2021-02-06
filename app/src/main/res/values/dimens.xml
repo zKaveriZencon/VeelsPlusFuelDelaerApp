@@ -1,0 +1,86 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--Common sizes for all screens-->
+    <dimen name="margin_login_card_width">320dp</dimen>
+    <dimen name="margin_login_card_height">380dp</dimen>
+    <dimen name="margin_300">300dp</dimen>
+
+    <dimen name="margin_230">230dp</dimen>
+    <dimen name="margin_210">210dp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+
+    <dimen name="margin_130">130dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_2">2dp</dimen>
+    <dimen name="padding_1">1dp</dimen>
+
+    <dimen name="textsize_18">18sp</dimen>
+    <dimen name="textsize_20">20sp</dimen>
+    <dimen name="textsize_10">10sp</dimen>
+    <dimen name="textsize_25">25sp</dimen>
+    <dimen name="textsize_15">15sp</dimen>
+
+    <dimen name="common_height_150">150dp</dimen>
+    <dimen name="common_height_100">100dp</dimen>
+    <dimen name="common_height_55">55dp</dimen>
+    <dimen name="common_height_30">25dp</dimen>
+    <dimen name="common_height_50">50dp</dimen>
+    <dimen name="common_height_40">40dp</dimen>
+    <dimen name="common_height_35">35dp</dimen>
+    <dimen name="common_height_25">25dp</dimen>
+
+
+    <dimen name="about_us_dialog_height_290">290dp</dimen>
+    <dimen name="about_us_dialog_width_250">250dp</dimen>
+
+    <dimen name="padding_small">3dp</dimen>
+    <dimen name="padding_medium">5dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="standard_padding">16dp</dimen>
+
+    <dimen name="splash_logo_height">70dp</dimen>
+    <dimen name="splash_logo_width">100dp</dimen>
+    <dimen name="login_parent_top_margin">60dp</dimen>
+    <dimen name="login_logo_width">60dp</dimen>
+    <dimen name="login_logo_height">60dp</dimen>
+    <dimen name="login_viewline_height">1.3dp</dimen>
+
+    <!--dimes for design 3-->
+    <dimen name="headerTextSize">22sp</dimen>
+    <dimen name="newsMoreTextSize">12sp</dimen>
+    <dimen name="loginCardRadius">20dp</dimen>
+    <dimen name="loginViewsMargin">20dp</dimen>
+
+    <dimen name="signup_text_margin_top">10dp</dimen>
+
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="placeholder_image">50dp</dimen>
+    <dimen name="placeholder_text_height">8dp</dimen>
+    <dimen name="activity_padding_horizontal">16dp</dimen>
+    <dimen name="name">15dp</dimen>
+    <dimen name="chef">12dp</dimen>
+    <dimen name="timestamp">11dp</dimen>
+    <dimen name="description">15dp</dimen>
+    <dimen name="price">13dp</dimen>
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/layout_toolbar_arraivalslist"
+        layout="@layout/layout_custom_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/layout_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_toolbar_arraivalslist"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="3">
+
+        <EditText
+            android:id="@+id/edittext_searchby_vehicle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:hint="Vehicle Number"
+            android:inputType="textCapCharacters"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/iv_search_vehicle_arr"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="0.3"
+            android:background="@color/background"
+            android:padding="5dp"
+            android:src="@drawable/search" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:background="@color/colorZencon" />
+
+        <EditText
+            android:id="@+id/edittext_searchby_person"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:hint="Person Number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/iv_search_person_arr"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="0.3"
+            android:background="@color/background"
+            android:padding="5dp"
+            android:src="@drawable/search" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/layout_details"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/colorToolBar"
+        android:padding="1dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_arrivals_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_line"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/imageview_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/recyclerview_arrivals_main"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/nodata"
+        android:visibility="gone" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_new_req"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:padding="30dp"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/colorPlainWhite"
+        app:rippleColor="@color/colorPlainWhite"
+        app:tint="@color/colorPlainWhite" />
+</RelativeLayout>

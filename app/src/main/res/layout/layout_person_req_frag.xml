@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".activities.NewFuelCreditRequestActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:inputType="phone"
+                android:text="Person Name"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_mapped_per"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1.2"
+                android:textSize="12sp" />
+
+            <!-- <EditText
+                 android:id="@+id/edittext_driver_no_per"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.9"
+                 android:hint="Enter Number"
+                 android:inputType="number"
+                 android:maxLength="10"
+                 android:paddingBottom="-5dp"
+                 android:textColor="@color/colorBlack"
+                 android:textSize="13sp" />
+
+             <ImageView
+                 android:id="@+id/iv_search_driver_per"
+                 android:layout_width="0dp"
+                 android:layout_height="30dp"
+                 android:layout_marginEnd="2dp"
+                 android:layout_weight="0.2"
+                 android:background="@color/background"
+                 android:padding="8dp"
+                 android:src="@drawable/search" />
+
+             <ImageView
+                 android:id="@+id/iv_add_driver_per"
+                 android:layout_width="0dp"
+                 android:layout_height="30dp"
+                 android:layout_marginStart="2dp"
+                 android:layout_weight="0.2"
+                 android:background="@color/background"
+                 android:padding="8dp"
+                 android:src="@drawable/plus_black"
+                 android:visibility="gone" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Vehicle Number"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext_vehicle_no_per"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:hint="Enter Vehicle Number"
+                android:inputType="textCapCharacters"
+                android:paddingBottom="-5dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/edittext_vehicle_id_per"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:hint="Enter Vehicle Number"
+                android:inputType="textCapCharacters"
+                android:paddingBottom="-5dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_search_vehicle_per"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="0.2"
+                android:background="@color/background"
+                android:padding="8dp"
+                android:src="@drawable/search" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.8"
+                android:text="Person Name"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_driver_name_per"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.2"
+                android:hint="Person Name"
+                android:paddingBottom="-5dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Manual Credit No"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edittext_manual_credit_no"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.2"
+                android:hint="Enter manual credit number"
+                android:textSize="13sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="Fuel Type"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="2dp"
+                    android:text="Product Name"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="2dp"
+                    android:text="Fuel Price : "
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/spinner_select_fueltype_per"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_select_product_per"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textview_fuel_price_per"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorRowBg"
+                    android:padding="7dp"
+                    android:text="Fuel Price"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="2dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:padding="2dp"
+                android:text="Tentative Date"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_date_per"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:hint="Date"
+                android:padding="2dp"
+                android:textColor="@color/colorBlack" />
+
+            <ImageView
+                android:id="@+id/imageview_calendar_per"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0.2"
+                android:padding="2dp"
+                android:src="@drawable/calendar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/radiogr_required"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radiobtn_req_quan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:checked="false"
+                        android:text="Required Quantity" />
+
+                    <RadioButton
+                        android:id="@+id/radiobtn_req_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Required Amount" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/layout_req_quan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_req_quan_p"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="40dp"
+                        android:hint="Enter Quantity"
+                        android:inputType="phone"
+                        android:paddingBottom="-20dp"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:id="@+id/imageview_req_quan"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@color/colorZencon"
+                        android:padding="7dp"
+                        android:src="@drawable/correct" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edit_req_amt_p"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="40dp"
+                        android:hint="Enter Amount"
+                        android:inputType="phone"
+                        android:paddingBottom="-20dp"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:id="@+id/imageview_req_amt"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@color/colorZencon"
+                        android:padding="7dp"
+                        android:src="@drawable/correct" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/checkbox_same_As_req_per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Same as required quantity and amount" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/radiogr_actual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radiobtn_actual_quan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:checked="false"
+                        android:text="Actual Quantity" />
+
+                    <RadioButton
+                        android:id="@+id/radiobtn_actual_amt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Actual Amount" />
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edittext_actual_quanper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="40dp"
+                        android:hint="Enter Quantity"
+                        android:inputType="phone"
+                        android:paddingBottom="-20dp"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:id="@+id/imageview_actual_quan"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@color/colorZencon"
+                        android:padding="7dp"
+                        android:src="@drawable/correct" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edittext_actual_amtper"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="40dp"
+                        android:hint="Enter Amount"
+                        android:inputType="phone"
+                        android:paddingBottom="-20dp"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:id="@+id/imageview_actual_amt"
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@color/colorZencon"
+                        android:padding="7dp"
+                        android:src="@drawable/correct" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_submit_nw_per"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:elevation="100dp"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Submit"
+            android:textColor="@color/colorPlainWhite"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:rippleColor="@color/colorBlack"
+            app:strokeColor="@color/colorZencon" />
+
+        <TextView
+            android:id="@+id/textview_person_id_per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:hint="Person id"
+            android:padding="2dp"
+            android:textColor="@color/colorBlack"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textview_pan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:hint="Pan No : "
+            android:padding="2dp"
+            android:textColor="@color/colorBlack"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textview_custmap_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:hint="Pan No : "
+            android:padding="2dp"
+            android:textColor="@color/colorBlack"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

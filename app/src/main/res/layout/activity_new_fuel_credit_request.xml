@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.NewFuelCreditRequestActivity">
+
+    <include
+        android:id="@+id/layout_toolbar_form_cre"
+        layout="@layout/layout_custom_toolbar" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_createreq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPlainWhite"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorPlainWhite"
+        app:tabIndicatorHeight="6dp"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/colorBlack"
+        app:tabTextAppearance="@style/CustomTabTextForLR" />
+
+    <!--
+        app:tabBackground="@drawable/tab_selector_custom"
+    -->
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager_createreq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPlainWhite" />
+</LinearLayout>

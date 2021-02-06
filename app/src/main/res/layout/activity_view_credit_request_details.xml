@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".activities.ViewCreditRequestDetailsActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_parent_manual"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.ManualEntryFormActivity">
+
+        <include
+            android:id="@+id/layout_toolbar_form"
+            layout="@layout/layout_custom_toolbar" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="2dp"
+                    android:text="Person Name"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="Person Number"
+                    android:textColor="@color/colorBlack"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/label_vehicle_no_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="Vehicle Number"
+                    android:textColor="@color/colorBlack"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/label_custName_per"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="Customer Name"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/label_cust_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="Customer Number"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="Fuel Type"
+                    android:textColor="@color/colorBlack"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="Product Name"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="Requested Quantity"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="2dp"
+                    android:text="Requested Amount"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="2dp"
+                    android:text="Fuel Price  "
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="2dp"
+                    android:text="Actual Quantity"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:padding="2dp"
+                    android:text="Actual Amount"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+
+                <!--  <com.google.android.material.radiobutton.MaterialRadioButton
+                      android:id="@+id/radio_actual_quan"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:layout_marginTop="22dp"
+                      android:text="Actual Quantity"
+                      android:textStyle="bold" />
+
+                  <com.google.android.material.radiobutton.MaterialRadioButton
+                      android:id="@+id/radio_actual_amount"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"
+                      android:layout_marginTop="15dp"
+                      android:text="Actual Amount"
+                      android:textStyle="bold" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_drivername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Person Name"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_driverno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:hint="Person Number"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_vehicleno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Vehicle Number"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_custname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="Customer Name"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_custno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Customer Number"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_fueltype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Fuel Type"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_prodname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Product Name"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_required_quantitym"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Requested Quantity"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_required_amountm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Requested Amount"
+                    android:padding="5dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_fuel_price_new"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Fuel Price"
+                    android:padding="7dp"
+                    android:textColor="@color/colorBlack" />
+
+                <TextView
+                    android:id="@+id/textview_actual_quan_manual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Actual Quantity"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/textview_actual_amt_manual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Actual Amount"
+                    android:padding="2dp"
+                    android:textColor="@color/colorBlack"
+                    android:visibility="visible" />
+                <!--  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:weightSum="1">
+
+                      <EditText
+                          android:id="@+id/edittext_actual_quannew"
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginEnd="5dp"
+                          android:layout_weight="0.8"
+                          android:hint="Enter Actual Quantity"
+                          android:inputType="phone"
+                          android:overScrollMode="always"
+                          android:padding="7dp"
+                          android:scrollbarStyle="insideInset"
+                          android:scrollbars="vertical"
+                          android:textColor="@color/colorBlack"
+                          android:textSize="14sp" />
+
+                      <ImageView
+                          android:id="@+id/imageview_calc_amt"
+                          android:layout_width="0dp"
+                          android:layout_height="21dp"
+                          android:layout_gravity="center"
+                          android:layout_weight="0.2"
+                          android:background="@color/colorZencon"
+                          android:padding="5dp"
+                          android:src="@drawable/correct" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:weightSum="1">
+
+                      <EditText
+                          android:id="@+id/edittext_actual_amtnew"
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content"
+                          android:layout_marginEnd="5dp"
+                          android:layout_weight="0.8"
+                          android:hint="Enter Actual Amount"
+                          android:inputType="phone"
+                          android:overScrollMode="always"
+                          android:padding="7dp"
+                          android:scrollbarStyle="insideInset"
+                          android:scrollbars="vertical"
+                          android:textColor="@color/colorBlack"
+                          android:textSize="14sp" />
+
+                      <ImageView
+                          android:id="@+id/imageview_calc_quan"
+                          android:layout_width="0dp"
+                          android:layout_height="21dp"
+                          android:layout_gravity="center"
+                          android:layout_weight="0.2"
+                          android:background="@color/colorZencon"
+                          android:padding="5dp"
+                          android:src="@drawable/correct" />
+                  </LinearLayout>-->
+                <!--   <EditText
+                       android:id="@+id/edittext_actual_quantitym"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:hint="Actual Quantity"
+                       android:textColor="@color/colorBlack"
+                       android:textSize="14sp"
+                       android:visibility="gone" />
+
+                   <EditText
+                       android:id="@+id/edittext_actual_amtm"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="5dp"
+                       android:hint="Actual Amount"
+                       android:textColor="@color/colorBlack"
+                       android:textSize="14sp"
+                       android:visibility="gone" />
+   -->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_submitm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:elevation="100dp"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="SUBMIT"
+            android:textColor="@color/colorPlainWhite"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:rippleColor="@color/colorBlack"
+            app:strokeColor="@color/colorZencon" />
+
+
+    </LinearLayout>
+</ScrollView>

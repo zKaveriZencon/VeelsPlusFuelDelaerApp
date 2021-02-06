@@ -1,0 +1,9 @@
+  //  motharsang
+    // 9909013949 dealer
+    // 9913803862 operator
+*Problem while adding credit entry -- 25 december
+
+21 January 2021, Thursday -
+@Pramod,
+After recovery submission from app if I update recovery of same entry from portal 'recoveredAmtByApp' column not getting updated in some cases and sometimes batchId also wrong.
+Please check this issue

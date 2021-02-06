@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.veelsplusfueldealerapp">
+
+
+<!--
+    new password is "fueldealer@123" for username:govind.mishra@zencon.co.in
+-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name=".managers.FuelDealerApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/fuelin"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/fuelin"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeMaterialNew"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.FuelExpenseListActivity"></activity>
+        <activity android:name=".activities.FirstReportDetailsActivity" />
+        <activity android:name=".activities.ReportFirstActivity" />
+        <activity android:name=".activities.ArrivaliListForCorporateActivity" />
+        <activity
+            android:name=".activities.CreateCreditReqManagerActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.ViewCreditRequestDetailsActivity" />
+        <activity
+            android:name=".activities.MappedAccountActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.UITestActivity" />
+        <activity android:name=".activities.ViewCreditPersonDetailsActivity" />
+        <activity android:name=".activities.NewArrivalListActivity" />
+        <activity android:name=".activities.ShimmerEffectActivity" />
+        <activity android:name=".activities.FuelPriceListActivity" />
+        <activity
+            android:name=".activities.SetFuelPriceActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.BaseCompatActivity" />
+        <activity android:name=".activities.TestUIActivity" />
+        <activity
+            android:name=".activities.NewFuelCreditRequestActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.ErInfoActivity" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".activities.DailyStockReadingActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.AddProductReceiptActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.ArraivalListActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.DailyStockReadingListActivity" />
+        <activity android:name=".activities.DailySalesActivity" />
+        <activity android:name=".activities.DashboradActivity" />
+        <activity android:name=".activities.DashboardActivityDummy" />
+        <activity
+            android:name=".activities.EarningsReportActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.HomeActivity" />
+        <activity
+            android:name=".activities.ProductReceiptListActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.ManualEntryFormActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.OperatorDailyWorkListActivity" />
+        <activity
+            android:name=".activities.OperatorShiftStartEndActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".activities.OperatorsListActivity" />
+        <activity
+            android:name=".activities.UpdateDailyStockActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activities.UpdateProductReceiptActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/zxing_CaptureTheme"
+            tools:replace="screenOrientation" />
+    </application>
+
+</manifest>

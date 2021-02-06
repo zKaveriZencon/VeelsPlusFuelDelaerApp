@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DailyStockReadingListActivity">
+
+    <include
+        android:id="@+id/layout_toolbar_daily_inventory"
+        layout="@layout/layout_custom_toolbar" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_daily_inventory_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_toolbar_daily_inventory"
+        android:layout_marginTop="5dp"
+        android:padding="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_daily_inventory"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:padding="30dp"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="@color/colorPlainWhite"
+        android:tooltipText="Add Stock Reading"
+        app:rippleColor="@color/colorPlainWhite"
+        app:tint="@color/colorPlainWhite" />
+
+    <ImageView
+        android:id="@+id/imageview_no_data"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/layout_toolbar_daily_inventory"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/nodata"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.7392739" />
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="Dealer App" />
+        <option name="packageNamePattern" value="com.veelsplusfueldealerapp" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Dealer App" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dd228f1-1ddb-4ff7-a7c7-2df75e277138" name="Default Changelist" comment="All known issues solved - dealer module except daily slaes card" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="e045be58" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AndroidFuelDealerApp" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Object" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Pictures/Release Key/finalrelease.jks" />
+    <option name="KEY_ALIAS" value="vpprodrelease" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fruhQwJgH3j7zrylI7PYLN9FlI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ApkExportedModule" value="app" />
+    <property name="BundleExportedModule" value="app" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowLogcat.ShowToolbar" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.403161883">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.237851671">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.120341067">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.1096406511">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/veelsplusfueldealerapp/managers" />
+    </key>
+    <key name="android.template.-2050041539">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.42619853">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.-1206440118">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.-384664489">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.1816753572">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.705410381">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.-562772791">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.-597494891">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.1873510415">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.182464900">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.-1502919511">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.1904420730">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.-435545252">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+    <key name="android.template.-55562562">
+      <recent name="com.veelsplusfueldealerapp.activities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EarningsReportActivity" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.veelsplusfueldealerapp.activities.EarningsReportActivity" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android App.EarningsReportActivity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dd228f1-1ddb-4ff7-a7c7-2df75e277138" name="Default Changelist" comment="" />
+      <created>1596988651732</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596988651732</updated>
+    </task>
+    <task id="LOCAL-00001" summary="After all changes*">
+      <created>1596994392879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596994392880</updated>
+    </task>
+    <task id="LOCAL-00002" summary="After all changes*">
+      <created>1596994575049</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596994575049</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Operator shift, daily stock, inventory part complete, all changes as per demo">
+      <created>1597121112414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597121112414</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Daily stock, operator shift, prod receipt, earning sections complete.&#10;-Kaveri">
+      <created>1597760668483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597760668483</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Before Client Demo and Before Sales Section UI changed&#10;-Kaveri">
+      <created>1598523520822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598523520822</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Daily sales section complete except header change - Kaveri">
+      <created>1598721209425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598721209425</updated>
+    </task>
+    <task id="LOCAL-00007" summary="All changes done except update values in er sales screen.- Kaveri">
+      <created>1598974373992</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598974373993</updated>
+    </task>
+    <task id="LOCAL-00008" summary="4 sep Friday -ERDigital issue solved.-Kaveri">
+      <created>1599224476038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599224476039</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Daily sales section completed.-Kaveri">
+      <created>1599832824764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599832824764</updated>
+    </task>
+    <task id="LOCAL-00010" summary="All changes till firststrategy">
+      <created>1600153769068</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600153769068</updated>
+    </task>
+    <task id="LOCAL-00011" summary="All changes after client demo. 10-10-2020-Kaveri">
+      <created>1602566307157</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602566307157</updated>
+    </task>
+    <task id="LOCAL-00012" summary="24-10-2020 -All changes due to api change and clien issues. -Kaveri">
+      <created>1603562883116</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603562883117</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Client changes- corporate flow, person flow">
+      <created>1605938191589</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605938191590</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Till the shift wise credit creation and calculation in daily sales.">
+      <created>1609753259184</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609753259185</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Till the version 1.0.17&#10;Date - 2-jan-2021&#10;-Shift wise credit req creation and calculation">
+      <created>1609753348639</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609753348639</updated>
+    </task>
+    <task id="LOCAL-00016" summary="edit functioanlity for digital half done&#10;6 january 23.44">
+      <created>1609956902676</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609956902676</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Edit/or add payment details in existing transaction -in digital section done - working fine">
+      <created>1610006899709</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610006899709</updated>
+    </task>
+    <task id="LOCAL-00018" summary="working code for calc corp create fuel req values">
+      <created>1610039924505</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610039924505</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Newcorp frag, fuel price not assign with ongoing shift issue resolved">
+      <created>1610116432254</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610116432254</updated>
+    </task>
+    <task id="LOCAL-00020" summary="All known issues solved - dealer module except daily sales card">
+      <created>1610798844718</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610798844718</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Before sharing with androiders.28-1-2021">
+      <created>1611815351090</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1611815351090</updated>
+    </task>
+    <task id="LOCAL-00022" summary="All known issues solved - dealer module except daily slaes card">
+      <created>1611816318230</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1611816318230</updated>
+    </task>
+    <task id="LOCAL-00023" summary="All known issues solved - dealer module except daily slaes card">
+      <created>1611816337992</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1611816337992</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fuel expense menu icon added">
+      <created>1611818825496</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1611818825496</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="After all changes*" />
+    <MESSAGE value="Operator shift, daily stock, inventory part complete, all changes as per demo" />
+    <MESSAGE value="Daily stock, operator shift, prod receipt, earning sections complete.&#10;-Kaveri" />
+    <MESSAGE value="Before Client Demo and Before Sales Section UI changed&#10;-Kaveri" />
+    <MESSAGE value="Daily sales section complete except header change - Kaveri" />
+    <MESSAGE value="All changes done except update values in er sales screen.- Kaveri" />
+    <MESSAGE value="4 sep Friday -ERDigital issue solved.-Kaveri" />
+    <MESSAGE value="Daily sales section completed.-Kaveri" />
+    <MESSAGE value="All changes till firststrategy" />
+    <MESSAGE value="All changes after client demo. 10-10-2020-Kaveri" />
+    <MESSAGE value="24-10-2020 -All changes due to api change and clien issues. -Kaveri" />
+    <MESSAGE value="Client changes- corporate flow, person flow" />
+    <MESSAGE value="Till the shift wise credit creation and calculation in daily sales." />
+    <MESSAGE value="Till the version 1.0.17&#10;Date - 2-jan-2021&#10;-Shift wise credit req creation and calculation" />
+    <MESSAGE value="edit functioanlity for digital half done&#10;6 january 23.44" />
+    <MESSAGE value="Edit/or add payment details in existing transaction -in digital section done - working fine" />
+    <MESSAGE value="working code for calc corp create fuel req values" />
+    <MESSAGE value="Newcorp frag, fuel price not assign with ongoing shift issue resolved" />
+    <MESSAGE value="All known issues solved - dealer module except daily sales card" />
+    <MESSAGE value="Before sharing with androiders.28-1-2021" />
+    <MESSAGE value="All known issues solved - dealer module except daily slaes card" />
+    <MESSAGE value="Fuel expense menu icon added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fuel expense menu icon added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="22" width="800" height="672" key="#Menus_and_Toolbars" timestamp="1606211783551">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="278" y="22" width="800" height="672" key="#Menus_and_Toolbars/0.0.1366.723@0.0.1366.723" timestamp="1606211783551" />
+    <state x="392" y="8" width="572" height="699" key="#app" timestamp="1610515047016">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="392" y="8" width="572" height="699" key="#app/0.0.1366.723@0.0.1366.723" timestamp="1610515047016" />
+    <state x="992" y="143" width="374" height="557" key="#com.intellij.ide.util.MemberChooser" timestamp="1611826242941">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="992" y="143" width="374" height="557" key="#com.intellij.ide.util.MemberChooser/0.0.1366.723@0.0.1366.723" timestamp="1611826242941" />
+    <state x="416" y="110" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610693380630">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="416" y="110" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.723@0.0.1366.723" timestamp="1610693380630" />
+    <state x="427" y="200" width="607" height="315" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604150639163">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="427" y="200" width="607" height="315" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.723@0.0.1366.723" timestamp="1604150639163" />
+    <state x="362" y="5" width="863" height="718" key="CommitChangelistDialog2" timestamp="1611818824513">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="362" y="5" width="863" height="718" key="CommitChangelistDialog2/0.0.1366.723@0.0.1366.723" timestamp="1611818824513" />
+    <state x="100" y="99" width="1166" height="523" key="DiffContextDialog" timestamp="1611827523224">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="100" y="99" width="1166" height="523" key="DiffContextDialog/0.0.1366.723@0.0.1366.723" timestamp="1611827523224" />
+    <state x="463" y="102" width="424" height="509" key="FileChooserDialogImpl" timestamp="1610786302727">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="463" y="102" width="424" height="509" key="FileChooserDialogImpl/0.0.1366.723@0.0.1366.723" timestamp="1610786302727" />
+    <state x="266" y="106" width="824" height="503" key="IDE.errors.dialog" timestamp="1604148551795">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="266" y="106" width="824" height="503" key="IDE.errors.dialog/0.0.1366.723@0.0.1366.723" timestamp="1604148551795" />
+    <state x="187" y="0" key="SettingsEditor" timestamp="1610705434222">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.723@0.0.1366.723" timestamp="1610705434222" />
+    <state x="473" y="268" width="409" height="179" key="SetupCloudRepositoryDialog" timestamp="1611743962838">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="473" y="268" width="409" height="179" key="SetupCloudRepositoryDialog/0.0.1366.723@0.0.1366.723" timestamp="1611743962838" />
+    <state x="480" y="140" width="387" height="433" key="chooseDestDirectoryDialog" timestamp="1611913964400">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="480" y="140" width="387" height="433" key="chooseDestDirectoryDialog/0.0.1366.723@0.0.1366.723" timestamp="1611913964400" />
+    <state x="100" y="99" width="1166" height="523" key="dock-window-1" timestamp="1605597984543">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="100" y="99" width="1166" height="523" key="dock-window-1/0.0.1366.723@0.0.1366.723" timestamp="1605597984543" />
+    <state x="361" y="67" width="639" height="656" key="find.popup" timestamp="1612157364437">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="361" y="67" width="639" height="656" key="find.popup/0.0.1366.723@0.0.1366.723" timestamp="1612157364437" />
+    <state x="387" y="0" width="582" height="718" key="refactoring.ChangeSignatureDialog" timestamp="1611826163747">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="387" y="0" width="582" height="718" key="refactoring.ChangeSignatureDialog/0.0.1366.723@0.0.1366.723" timestamp="1611826163747" />
+    <state x="342" y="158" width="672" height="677" key="run.anything.popup" timestamp="1611922479279">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="342" y="158" width="672" height="677" key="run.anything.popup/0.0.1366.723@0.0.1366.723" timestamp="1611922479279" />
+    <state x="343" y="43" width="672" height="678" key="search.everywhere.popup" timestamp="1612071196226">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="343" y="43" width="672" height="678" key="search.everywhere.popup/0.0.1366.723@0.0.1366.723" timestamp="1612071196226" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/veelsplusfueldealerapp/activities/EarningsReportActivity.java</url>
+          <line>367</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

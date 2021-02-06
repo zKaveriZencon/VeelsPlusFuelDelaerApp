@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="260dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#B1BCBE"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cardview_background">
+
+        <ImageView
+            android:id="@+id/imageview_close_about"
+            android:layout_width="@dimen/common_height_25"
+            android:layout_height="@dimen/common_height_25"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/holo_red_light"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageview_logo"
+            android:layout_width="70dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/imageview_close_about"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/fuelin" />
+
+        <TextView
+            android:id="@+id/textview_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageview_logo"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/textsize_20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textvew_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_name"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center"
+            android:text="Version 1.0.23 Production"
+            android:textColor="@color/colorHint"
+            android:textStyle="bold" />
+
+        <!--   <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@+id/textvew_version"
+               android:layout_marginTop="@dimen/margin_10"
+               android:text="@string/about_app"
+               android:maxLines="4"
+               android:lines="4"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textvew_version"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center"
+            android:lines="4"
+            android:maxLines="4"
+            android:text="@string/about_app"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/margin_20"
+            android:background="@color/colorZencon"
+            android:gravity="center"
+            android:text="@string/powered_by"
+            android:textColor="@color/colorWhite1"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
